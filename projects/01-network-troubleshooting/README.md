@@ -2,11 +2,11 @@
 
 Status: planned; no diagnostic script or results yet.
 
-## Problem and value
+## What I want to learn
 
-An IT support technician needs to distinguish a name-resolution issue, a TCP connection issue, and an application problem. Build a small PowerShell tool that reports useful observations without claiming a single failed test proves the cause.
+When a service won't connect, where do I start? I want to learn how to tell a DNS problem from a connection problem, then write a small PowerShell script to help check both. This should give me practice with the kind of troubleshooting I'd need in an IT internship.
 
-## Build in small steps
+## Steps to work through
 
 1. Learn working directories, IP addresses, DNS, and ports. Complete the Day 1 note.
 2. Manually inspect local network configuration and explain relevant fields; keep personal network data local.
@@ -17,7 +17,7 @@ An IT support technician needs to distinguish a name-resolution issue, a TCP con
 
 Use only localhost or explicitly scoped lab targets. The live local service used for positive tests will be introduced in Project 02; the positive test may remain pending until then.
 
-## Definition of done
+## Before I call this finished
 
 - [ ] Script source with usage examples and no embedded credentials.
 - [ ] Positive connection, wrong-port, and failed-name cases recorded with actual results.

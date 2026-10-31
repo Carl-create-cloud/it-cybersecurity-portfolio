@@ -1,27 +1,29 @@
-# IT and Cybersecurity Learning Portfolio
+# Learning IT and cybersecurity
 
-A computer science student's hands-on practice in troubleshooting, service operations, and authorized security assessment.
+I'm a third-year computer science student learning networking, troubleshooting, and cybersecurity. I'm interested in red teaming, and I'm also looking at IT internships where I can build practical experience.
 
-**Status:** project scaffolding created; practical work and findings are not yet completed. Target: three small, documented projects by November 20, 2026.
+I've used PowerShell and the Linux terminal a little, but I'm still getting comfortable with commands. I already have Kali Linux in VirtualBox. This repo is where I'll keep three small projects, the problems I run into, and what I learn while fixing them.
 
-| Project | Problem to solve | Deliverable | Status |
+**Right now:** the plan and note templates are ready. I haven't completed the practical exercises yet. My target is November 20, 2026, studying about four hours a day.
+
+| Project | What I want to figure out | What I'll make | Status |
 | --- | --- | --- | --- |
 | [01: Network troubleshooting](projects/01-network-troubleshooting/README.md) | A service cannot be reached: identify which layer fails | Small PowerShell diagnostic script and three troubleshooting tickets | Planned |
 | [02: Local web-service recovery](projects/02-service-recovery/README.md) | A local website stops working or returns an error | Reproducible service setup, health check, recovery runbook | Planned |
 | [03: Isolated security assessment](projects/03-security-assessment/README.md) | An owner needs to understand a lab machine's exposed services and one weakness | Scope, service inventory, one evidence-backed finding, remediation advice | Planned |
 
-## Start here
+## Where I'm starting
 
 1. Follow the [roadmap](docs/roadmap.md).
 2. Learn the [documentation method](docs/documentation-guide.md).
 3. Begin [Day 1](docs/day-01.md) and record actual observations.
 4. Copy a [template](templates/session-note.md) into the relevant project's notes directory after each session.
 
-## Evidence and honesty
+## How I'll keep notes
 
-Keep commands, observations, and interpretation separate. A planned exercise is not a completed project. Version banners are leads, not proof of exploitable vulnerabilities. Label simulations, untested recommendations, and AI assistance. Be able to explain every submitted script and finding.
+For each exercise, I'll write down what I tried, what happened, and why I think it happened. If something doesn't work, that belongs in the notes too. I'll add results as I do the work and keep unfinished steps marked as unfinished.
 
-Only test owned or explicitly authorized lab systems. Review evidence before committing; omit credentials, personal identifiers, VM images, and raw captures. Use `local-only/` for working evidence that must stay on the computer.
+Security testing will stay inside my own lab or an explicitly authorized setup. Private working files go in `local-only/`; passwords, personal information, and VM images don't belong in this repo.
 
 ## Learning resources
 
@@ -30,4 +32,4 @@ Only test owned or explicitly authorized lab systems. Review evidence before com
 - [Nmap reference guide](https://nmap.org/book/man.html)
 - [GitHub: Markdown syntax](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 
-This repository currently contains planning and templates prepared with AI assistance. Experiments, scripts, results, and learner explanations will be added as the work is performed.
+I used AI to help organize the initial plan and templates. As I work through the projects, I'll add my own observations and explanations of the results.

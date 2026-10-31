@@ -2,11 +2,11 @@
 
 Status: planned; no service started or failures tested yet.
 
-## Problem and value
+## What I want to learn
 
-A small internal service must be started, checked, and restored after common failures. Practice the difference between a running process, a reachable port, and a successful HTTP response.
+I'll run a simple website on my own computer, deliberately stop it or request a missing page, and work out how to identify each problem. I want to understand why a running server doesn't always mean the website is working. I'll also write recovery instructions that I can follow later without guessing.
 
-## Build in small steps
+## Steps to work through
 
 1. Check whether Python 3 is available on the chosen host; record its version. Resolve setup before following commands.
 2. Create a dedicated directory containing only a harmless demo index.html page.
@@ -18,7 +18,7 @@ A small internal service must be started, checked, and restored after common fai
 
 This is a local training service, not production hosting. Python's simple server is not intended for production use. Do not serve your home directory or repository root.
 
-## Definition of done
+## Before I call this finished
 
 - [ ] Demo page, verified startup instructions, and health-check source.
 - [ ] Healthy response, stopped-server failure, and missing-page response tested.
