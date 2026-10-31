@@ -1,0 +1,30 @@
+# Private working evidence and secrets
+local-only/
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.pfx
+*.pcap
+*.pcapng
+
+# Virtual machines, archives, and installers
+*.vdi
+*.vmdk
+*.vhd
+*.vhdx
+*.ova
+*.ovf
+*.iso
+*.zip
+*.7z
+*.exe
+*.msi
+
+# Generated files
+__pycache__/
+*.pyc
+.venv/
+.DS_Store
+Thumbs.db
