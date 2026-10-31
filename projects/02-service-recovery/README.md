@@ -2,11 +2,15 @@
 
 Status: planned; no service started or failures tested yet.
 
-## What I want to learn
+## Objective
 
-I'll run a simple website on my own computer, deliberately stop it or request a missing page, and work out how to identify each problem. I want to understand why a running server doesn't always mean the website is working. I'll also write recovery instructions that I can follow later without guessing.
+Deploy a local demonstration web service, evaluate its behavior under controlled failures, and document a reproducible recovery procedure. Implement a health check that distinguishes connection failure from an HTTP response.
 
-## Steps to work through
+## Investigation question
+
+How do connection tests and HTTP responses differ when the service is healthy, stopped, or serving a missing resource?
+
+## Methodology
 
 1. Check whether Python 3 is available on the chosen host; record its version. Resolve setup before following commands.
 2. Create a dedicated directory containing only a harmless demo index.html page.
@@ -18,7 +22,7 @@ I'll run a simple website on my own computer, deliberately stop it or request a 
 
 This is a local training service, not production hosting. Python's simple server is not intended for production use. Do not serve your home directory or repository root.
 
-## Before I call this finished
+## Acceptance criteria
 
 - [ ] Demo page, verified startup instructions, and health-check source.
 - [ ] Healthy response, stopped-server failure, and missing-page response tested.
@@ -26,4 +30,10 @@ This is a local training service, not production hosting. Python's simple server
 - [ ] Recovery runbook reproduced from a fresh terminal.
 - [ ] Report explains why an open port alone is insufficient.
 
-Reference: [Python http.server](https://docs.python.org/3/library/http.server.html).
+## Results and limitations
+
+No service tests have been completed. Record baseline, failure, and recovery observations using the [technical report](../../templates/technical-report.md). The experiment concerns a local static service; it does not evaluate production availability, authentication, or load handling.
+
+## References
+
+- [Python http.server](https://docs.python.org/3/library/http.server.html).

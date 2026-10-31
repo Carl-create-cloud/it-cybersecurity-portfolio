@@ -2,11 +2,15 @@
 
 Status: planned; no diagnostic script or results yet.
 
-## What I want to learn
+## Objective
 
-When a service won't connect, where do I start? I want to learn how to tell a DNS problem from a connection problem, then write a small PowerShell script to help check both. This should give me practice with the kind of troubleshooting I'd need in an IT internship.
+Develop a small PowerShell diagnostic tool that separates name-resolution failures from TCP connection failures. Document how the observations support fault isolation in a basic IT support scenario.
 
-## Steps to work through
+## Investigation question
+
+Which diagnostic observations distinguish an invalid hostname, an unreachable service port, and a successful connection?
+
+## Methodology
 
 1. Learn working directories, IP addresses, DNS, and ports. Complete the Day 1 note.
 2. Manually inspect local network configuration and explain relevant fields; keep personal network data local.
@@ -17,7 +21,7 @@ When a service won't connect, where do I start? I want to learn how to tell a DN
 
 Use only localhost or explicitly scoped lab targets. The live local service used for positive tests will be introduced in Project 02; the positive test may remain pending until then.
 
-## Before I call this finished
+## Acceptance criteria
 
 - [ ] Script source with usage examples and no embedded credentials.
 - [ ] Positive connection, wrong-port, and failed-name cases recorded with actual results.
@@ -27,4 +31,10 @@ Use only localhost or explicitly scoped lab targets. The live local service used
 
 Suggested folders: scripts/, notes/, evidence/. Commit only reviewed evidence.
 
-Reference: [Microsoft Test-NetConnection](https://learn.microsoft.com/en-us/powershell/module/nettcpip/test-netconnection).
+## Results and limitations
+
+No tests have been completed. Record each case's input, expected behavior, actual output, and interpretation in the [technical report](../../templates/technical-report.md). TCP success establishes a connection, not application health; a failed connection does not by itself identify a root cause.
+
+## References
+
+- [Microsoft Test-NetConnection](https://learn.microsoft.com/en-us/powershell/module/nettcpip/test-netconnection).

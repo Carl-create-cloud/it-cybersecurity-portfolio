@@ -6,3 +6,4 @@ Do not complete all learner exercises automatically. Let the learner run, explai
 Keep tests within explicit lab scope. Verify isolation before vulnerable VM use. Preserve existing VM files.
 Review staged files for secrets and personal data before pushing. Keep raw/private evidence in ignored local-only directories. Never upload virtual disks or archives.
 Update project status only after reviewing actual evidence. Distinguish verified fixes from recommendations. Keep documentation concise and reproducible.
+Use a formal, accessible technical-report style for portfolio-facing documentation: objectives, investigation questions, methodology, results, limitations, and references. Avoid conversational biographies, social-media phrasing, unnecessary jargon, and unsupported claims of research novelty. Teaching exercises may remain direct and beginner-friendly.

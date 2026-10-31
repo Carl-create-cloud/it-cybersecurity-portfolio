@@ -2,6 +2,8 @@
 
 A useful report lets another person understand the problem, repeat your investigation, and see why your conclusion follows from evidence.
 
+Use the [technical report template](../templates/technical-report.md) for the final project document. Use session notes and troubleshooting tickets as supporting records. Keep the tone formal and direct: state the objective, describe the method, report observations, and explain the limits of the conclusion. A report structure does not require claiming academic novelty or adding jargon.
+
 ## Write in this order
 
 1. **Problem:** what did you expect, and what actually happened?
