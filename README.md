@@ -17,7 +17,7 @@ The portfolio supports preparation for IT support, networking, and cybersecurity
 
 | Project | Investigation focus | Planned output | Status |
 | --- | --- | --- | --- |
-| [01: Network troubleshooting](projects/01-network-troubleshooting/README.md) | A service cannot be reached: identify which layer fails | Small PowerShell diagnostic script and three troubleshooting tickets | Planned |
+| [01: Network troubleshooting](projects/01-network-troubleshooting/README.md) | A service cannot be reached: identify which layer fails | Small PowerShell diagnostic script and three troubleshooting tickets | Guided implementation complete; independent reproduction pending |
 | [02: Local web-service recovery](projects/02-service-recovery/README.md) | A local website stops working or returns an error | Reproducible service setup, health check, recovery runbook | Planned |
 | [03: Isolated security assessment](projects/03-security-assessment/README.md) | An owner needs to understand a lab machine's exposed services and one weakness | Scope, service inventory, one evidence-backed finding, remediation advice | Planned |
 
@@ -34,11 +34,11 @@ These are educational lab investigations. Findings will apply to the tested conf
 
 ## Progress
 
-**Current stage:** planning and documentation setup. The three practical projects have not yet been completed, and no experimental findings are reported.
+**Current stage:** Project 01 guided implementation and acceptance checks complete, supported by learner-provided observations. Independent reproduction remains pending. Projects 02 and 03 remain planned.
 
-**Target period:** November 1-20, 2026, with approximately four hours of study per day. The [roadmap](docs/roadmap.md) records milestones and completion criteria.
+**Target period:** November 1-20, 2026, with study sessions adapted to school workload. The [roadmap](docs/roadmap.md) records milestones and completion criteria.
 
-**Next milestone:** complete the [environment inspection and initial documentation exercise](docs/day-01.md).
+**Next milestone:** begin Project 02: local service health checks and a reproducible recovery procedure. The broader [Day 1 environment inspection](docs/day-01.md) remains pending.
 
 ## Repository organization
 
@@ -64,4 +64,4 @@ Testing is restricted to owned or explicitly authorized lab systems. Vulnerable 
 
 ## Assistance disclosure
 
-AI assistance was used to prepare the initial project structure and documentation templates. Practical results will be recorded only after execution and review; generated text is not experimental evidence.
+AI assistance was used to prepare project structure, scripts, and documentation. Project 01 results are based on learner-supplied terminal output and browser observations. Generated text is not experimental evidence; independent reproduction remains pending.
