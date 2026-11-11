@@ -26,8 +26,8 @@ Daily block: 30 minutes concepts/review, 90 minutes guided practice, 15 minutes 
 - [x] Repository structure, project briefs, and documentation templates prepared.
 - [ ] Day 1 exercise reviewed.
 - [x] Project 01: diagnostic checks completed and explained through guided practice; independent reproduction remains scheduled separately.
-- [ ] Project 02: recovery procedure reproduced from written instructions.
+- [x] Project 02: recovery procedure reproduced from written instructions with assistance; report prepared and limitations documented.
 - [ ] Project 03: finding documented with evidence and limitations.
 - [ ] Evidence reviewed for privacy and accuracy before public release.
 
-Next milestone: Project 02 local service health check and recovery procedure. The broader [Day 1](day-01.md) inspection remains pending. VirtualBox and Kali are reported installed. Network configuration and available hardware resources remain unverified.
+Next milestone: Project 03 resource inspection, scope, and verified lab isolation. The broader [Day 1](day-01.md) inspection remains pending. VirtualBox and Kali are reported installed. Network configuration and available hardware resources remain unverified.

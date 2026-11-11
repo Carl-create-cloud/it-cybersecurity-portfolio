@@ -1,6 +1,6 @@
 # Project 02: Local web-service recovery
 
-Status: planned; no service started or failures tested yet.
+Status: guided implementation complete; healthy response, missing-page response, and stopped-service recovery verified through guided practice. Health-check main paths and exit codes verified through guided practice; fresh-terminal runbook reproduction completed with assistance on November 11, 2026. Report reviewed against saved evidence; unaided explanation remains future practice.
 
 ## Objective
 
@@ -24,15 +24,15 @@ This is a local training service, not production hosting. Python's simple server
 
 ## Acceptance criteria
 
-- [ ] Demo page, verified startup instructions, and health-check source.
-- [ ] Healthy response, stopped-server failure, and missing-page response tested.
-- [ ] Health check distinguishes success and failure with appropriate exit status.
-- [ ] Recovery runbook reproduced from a fresh terminal.
-- [ ] Report explains why an open port alone is insufficient.
+- [x] Demo page, verified startup instructions, and health-check source.
+- [x] Healthy response, stopped-server failure, and missing-page response tested.
+- [x] Health check distinguishes success and failure with appropriate exit status.
+- [x] Recovery runbook reproduced from fresh terminals with assistance; see reproduction evidence.
+- [x] [Report](report.md) explains why an open port alone is insufficient; assisted explanation recorded.
 
 ## Results and limitations
 
-No service tests have been completed. Record baseline, failure, and recovery observations using the [technical report](../../templates/technical-report.md). The experiment concerns a local static service; it does not evaluate production availability, authentication, or load handling.
+On November 9, 2026, learner-provided output confirmed Python 3.14.0, startup bound to 127.0.0.1:8000, HTTP status 200, and the expected Project 02 page content. See [baseline evidence](notes/healthy-baseline.md). The [missing-page case](notes/missing-page.md) records HTTP 404 followed by a successful correct-path request. The [stopped-service case](notes/stopped-service.md) records shutdown, connection failure, restart, and fresh HTTP 200 with expected content. These are guided observations; the automated main paths and exit codes are recorded in [script validation](notes/script-validation.md). Fresh-terminal reproduction using the [recovery runbook](runbook.md) was completed with assistance; see [reproduction evidence](notes/runbook-reproduction.md), including final shutdown. A content-marker mismatch under HTTP 200 has not been tested. The [report](report.md) summarizes results, corrections, assistance, and unresolved limitations. The experiment concerns a local static service; it does not evaluate production availability, authentication, or load handling.
 
 ## References
 
