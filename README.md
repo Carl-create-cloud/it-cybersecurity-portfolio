@@ -36,10 +36,6 @@ These are educational lab investigations. Findings will apply to the tested conf
 
 **Current stage:** All three scoped projects completed with guidance. Results and limitations are documented.
 
-**Target period:** November 1-20, 2026, with study sessions adapted to school workload. The [roadmap](docs/roadmap.md) records milestones and completion criteria.
-
-**Publication target:** November 20, 2026. Keep the repository private until a separate decision to make it public.
-
 ## Repository organization
 
 | Location | Contents |
