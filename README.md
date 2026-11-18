@@ -15,11 +15,18 @@ The portfolio supports preparation for IT support, networking, and cybersecurity
 
 ## Project index
 
-| Project | Investigation focus | Planned output | Status |
+| Project | Investigation focus | Deliverables | Status |
 | --- | --- | --- | --- |
 | [01: Network troubleshooting](projects/01-network-troubleshooting/README.md) | A service cannot be reached: identify which layer fails | Small PowerShell diagnostic script and three troubleshooting tickets | Completed with guidance |
 | [02: Local web-service recovery](projects/02-service-recovery/README.md) | A local website stops working or returns an error | Reproducible service setup, health check, recovery runbook | Completed with guidance |
 | [03: Isolated security assessment](projects/03-security-assessment/README.md) | An owner needs to understand a lab machine's exposed services and one weakness | Scope, service inventory, one evidence-backed finding, remediation advice | Completed with guidance |
+
+## Review the work
+
+- [Network troubleshooting report](projects/01-network-troubleshooting/report.md) and [diagnostic script](projects/01-network-troubleshooting/scripts/Test-LabConnection.ps1).
+- [Service recovery report](projects/02-service-recovery/report.md), [runbook](projects/02-service-recovery/runbook.md), and [health-check script](projects/02-service-recovery/scripts/Test-LabHttp.ps1).
+- [Security assessment report](projects/03-security-assessment/report.md) and [anonymous FTP finding](projects/03-security-assessment/finding-anonymous-ftp.md).
+- [CTF experience](activities/packet-capture-ctf.md): solved OSINT and web challenges, separate from the three lab projects.
 
 ## Methodology
 

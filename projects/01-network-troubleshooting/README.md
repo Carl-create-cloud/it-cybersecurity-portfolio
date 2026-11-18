@@ -33,6 +33,8 @@ Suggested folders: scripts/, notes/, evidence/. Commit only reviewed evidence.
 
 ## Results and limitations
 
+See the [technical report](report.md) for a concise summary of the three cases and script validation.
+
 The [stopped-service and recovery case](tickets/01-stopped-local-service.md) records learner-provided TCP results and browser observations. The [wrong-port case](tickets/02-wrong-port.md) records TCP failure on 8001 followed by success on 8000. The [failed-name case](tickets/03-failed-name.md) records the expected nonexistent-name error. The [script validation record](notes/script-validation.md) includes successful and failed connection paths and a name-resolution failure. The learner correctly distinguished TCP connection success from checking the expected page in the browser. TCP success establishes a connection, not application health; a failed connection does not by itself identify a root cause.
 
 ## References
