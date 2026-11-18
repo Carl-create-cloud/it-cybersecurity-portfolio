@@ -1,6 +1,6 @@
 # Project 03: Isolated lab security assessment
 
-Status: planned; VM networking, isolation, and target readiness are unverified. No findings yet.
+Status: guided assessment and report prepared; final learner explanation pending. Anonymous FTP acceptance is confirmed; attempted remediation was unsuccessful and cause remains unresolved. See the [report](report.md), [scope](lab-scope.md), [inventory](service-inventory.md), and [finding](finding-anonymous-ftp.md).
 
 ## Objective
 
@@ -27,15 +27,15 @@ Keep internet research separate from the isolated exercise. Exclude external hos
 
 ## Acceptance criteria
 
-- [ ] Scope, lab isolation evidence, and recovery procedure.
-- [ ] Service inventory with commands and interpretation.
-- [ ] One supported finding using the finding template; no invented severity score.
-- [ ] Clear remediation and validation instructions, with tested/untested status.
+- [x] Scope, lab isolation evidence, and recovery procedure.
+- [x] Service inventory with commands and interpretation.
+- [x] One supported finding using the finding template; no invented severity score.
+- [x] Clear remediation and validation instructions, with tested/untested status.
 - [ ] Limitations and a five-minute learner explanation.
 
 ## Results and limitations
 
-No assessment has been performed. Use the [technical report](../../templates/technical-report.md) to summarize the investigation and link the detailed security finding. This historical intentionally vulnerable VM is a learning target; its weaknesses do not establish that modern systems behave the same way.
+The [report](report.md) records three open TCP ports and a confirmed anonymous FTP login. Downloads, uploads, and sensitive-data exposure were not tested. The configuration change did not prevent login; no successful fix is claimed. A guided explanation of this distinction was demonstrated; a full five-minute explanation remains pending. This historical intentionally vulnerable VM is a learning target; its weaknesses do not establish that modern systems behave the same way.
 
 ## References
 
