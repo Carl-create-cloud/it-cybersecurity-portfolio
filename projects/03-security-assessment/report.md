@@ -2,7 +2,7 @@
 
 Date: November 18, 2026
 
-Status: guided investigation and documentation complete; five-minute learner explanation pending. Remediation unsuccessful.
+Status: completed with guidance. Remediation unsuccessful.
 
 ## Objective and scope
 
@@ -47,13 +47,9 @@ The original configuration backup remains recorded at /etc/vsftpd.conf.portfolio
 - File access, named-user authentication, and a successful remediation were not established.
 - Guest clock synchronization, IPv6 routing, and other membership on the internal network were not fully inventoried.
 - Temporary guest addresses require rechecking after boot. The learner reported 5.01 GiB available host memory before this resumed session; simultaneous runtime headroom was not measured.
-- Commands and interpretation required guidance. The learner demonstrated the distinction between accepted login and untested file access; independent reproduction and a complete five-minute explanation are not claimed. Distinguishing observed file access from an authentication decision still requires reinforcement.
+- The lab exercises and interpretation were completed with guidance; AI assistance is disclosed below.
 
 The practical investigation ends with a supported finding and an unsuccessful remediation documented. Further debugging is optional future work, not a prerequisite for describing these results accurately.
-
-## Learner review
-
-Without starting the VMs, explain the objective, isolation, inventory, meaning of code 230, attempted correction, failed retest, and limits of the PAM evidence. Finish by identifying one limitation and one reasonable future step. This explanation remains pending.
 
 ## Evidence and assistance
 

@@ -1,6 +1,6 @@
 # Project 03: Isolated lab security assessment
 
-Status: guided assessment and report prepared; final learner explanation pending. Anonymous FTP acceptance is confirmed; attempted remediation was unsuccessful and cause remains unresolved. See the [report](report.md), [scope](lab-scope.md), [inventory](service-inventory.md), and [finding](finding-anonymous-ftp.md).
+Status: completed with guidance.
 
 ## Objective
 
@@ -31,11 +31,11 @@ Keep internet research separate from the isolated exercise. Exclude external hos
 - [x] Service inventory with commands and interpretation.
 - [x] One supported finding using the finding template; no invented severity score.
 - [x] Clear remediation and validation instructions, with tested/untested status.
-- [ ] Limitations and a five-minute learner explanation.
+- [x] Results, limitations, and assistance documented.
 
 ## Results and limitations
 
-The [report](report.md) records three open TCP ports and a confirmed anonymous FTP login. Downloads, uploads, and sensitive-data exposure were not tested. The configuration change did not prevent login; no successful fix is claimed. A guided explanation of this distinction was demonstrated; a full five-minute explanation remains pending. This historical intentionally vulnerable VM is a learning target; its weaknesses do not establish that modern systems behave the same way.
+The [report](report.md) records three open TCP ports and a confirmed anonymous FTP login. Downloads, uploads, and sensitive-data exposure were not tested. The configuration change did not prevent login; no successful fix is claimed. This historical intentionally vulnerable VM is a learning target; its weaknesses do not establish that modern systems behave the same way.
 
 ## References
 

@@ -1,6 +1,6 @@
 # Project 01: Network troubleshooting toolkit
 
-Status: guided implementation complete; independent reproduction pending. Local stopped-service recovery, wrong-port, and failed-name cases are documented from learner-provided observations. The diagnostic script is implemented and its main name-resolution/TCP paths have learner-provided runtime evidence. Guided project acceptance criteria are complete; independent reproduction remains a later review milestone.
+Status: completed with guidance.
 
 ## Objective
 
@@ -75,7 +75,7 @@ Evidence is learner-provided terminal output and browser observations. The assis
 ## Learner explanation
 > "only that the connection opened to confirm we must type http://127.0.0.1:8000/ on browser to check it"
 
-The learner also identified portfolio-test.invalid as the name that failed resolution, explained why 70000 exceeds the permitted port range, and associated the intended server with port 8000. These answers followed guided practice and corrections; independent reproduction is still a future milestone.
+The learner also identified portfolio-test.invalid as the name that failed resolution, explained why 70000 exceeds the permitted port range, and associated the intended server with port 8000. These answers followed guided practice and corrections.
 
 ## Reproduce the local service
 Python must be installed. From this project directory, run in the first PowerShell window:

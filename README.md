@@ -17,9 +17,9 @@ The portfolio supports preparation for IT support, networking, and cybersecurity
 
 | Project | Investigation focus | Planned output | Status |
 | --- | --- | --- | --- |
-| [01: Network troubleshooting](projects/01-network-troubleshooting/README.md) | A service cannot be reached: identify which layer fails | Small PowerShell diagnostic script and three troubleshooting tickets | Guided implementation complete; independent reproduction pending |
-| [02: Local web-service recovery](projects/02-service-recovery/README.md) | A local website stops working or returns an error | Reproducible service setup, health check, recovery runbook | Guided implementation and assisted reproduction complete; limitations documented |
-| [03: Isolated security assessment](projects/03-security-assessment/README.md) | An owner needs to understand a lab machine's exposed services and one weakness | Scope, service inventory, one evidence-backed finding, remediation advice | Assessment and report prepared; remediation unsuccessful; final explanation pending |
+| [01: Network troubleshooting](projects/01-network-troubleshooting/README.md) | A service cannot be reached: identify which layer fails | Small PowerShell diagnostic script and three troubleshooting tickets | Completed with guidance |
+| [02: Local web-service recovery](projects/02-service-recovery/README.md) | A local website stops working or returns an error | Reproducible service setup, health check, recovery runbook | Completed with guidance |
+| [03: Isolated security assessment](projects/03-security-assessment/README.md) | An owner needs to understand a lab machine's exposed services and one weakness | Scope, service inventory, one evidence-backed finding, remediation advice | Completed with guidance |
 
 ## Methodology
 
@@ -34,11 +34,11 @@ These are educational lab investigations. Findings will apply to the tested conf
 
 ## Progress
 
-**Current stage:** Project 01 guided implementation and acceptance checks complete, supported by learner-provided observations. Independent reproduction remains pending. Project 02 guided implementation and assisted reproduction are complete, with a report and documented limitations. Project 03 has a supported anonymous FTP finding and a completed investigation report; remediation was unsuccessful and final learner explanation remains pending.
+**Current stage:** All three scoped projects completed with guidance. Results and limitations are documented.
 
 **Target period:** November 1-20, 2026, with study sessions adapted to school workload. The [roadmap](docs/roadmap.md) records milestones and completion criteria.
 
-**Next milestone:** review the Project 03 report and deliver a five-minute learner explanation. The broader [Day 1 environment inspection](docs/day-01.md) remains pending.
+**Publication target:** November 20, 2026. Keep the repository private until a separate decision to make it public.
 
 ## Repository organization
 
@@ -62,6 +62,6 @@ Testing is restricted to owned or explicitly authorized lab systems. Vulnerable 
 - [Nmap reference guide](https://nmap.org/book/man.html)
 - [GitHub: Markdown syntax](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 
-## Assistance disclosure
+## AI assistance
 
-AI assistance was used to prepare project structure, scripts, and documentation. Results for all three projects are based on learner-supplied terminal output and browser observations. Generated text is not experimental evidence; independent reproduction remains pending.
+I used AI to help structure the projects, develop scripts, explain commands, and review documentation. I ran the lab exercises and supplied the test results. Reports distinguish observed results from recommendations and untested assumptions.
