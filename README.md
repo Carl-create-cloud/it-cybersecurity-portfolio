@@ -47,7 +47,7 @@ These are educational lab investigations. Findings will apply to the tested conf
 
 | Location | Contents |
 | --- | --- |
-| `projects/` | Project objectives, procedures, acceptance criteria, and future results |
+| `projects/` | Project objectives, procedures, acceptance criteria, and results |
 | `docs/` | Schedule, learning exercises, and documentation guidance |
 | `templates/` | Session record, troubleshooting ticket, security finding, and technical report templates |
 | `local-only/` | Ignored local working evidence; not uploaded to GitHub |
