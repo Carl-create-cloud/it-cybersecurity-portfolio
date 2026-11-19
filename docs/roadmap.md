@@ -28,6 +28,6 @@ Daily block: 30 minutes concepts/review, 90 minutes guided practice, 15 minutes 
 - [x] Project 01: completed with guidance; script and troubleshooting cases documented.
 - [x] Project 02: completed with guidance; health check and recovery report documented.
 - [x] Project 03: completed with guidance; finding and unsuccessful remediation documented.
-- [ ] Evidence reviewed for privacy and accuracy before public release.
+- [x] Published evidence summaries reviewed for privacy and accuracy before public release.
 
-Publication target: November 20, 2026. The three scoped projects are completed with guidance. The broader Day 1 exercise is optional learning follow-up, not a publication requirement. Keep the repository private until the owner separately requests public visibility.
+Published with the owner's authorization on November 19, 2026, ahead of the November 20 target. The three scoped projects are completed with guidance. The broader Day 1 exercise is optional learning follow-up, not a publication requirement. Raw private evidence and the separate local Packet Tracer exercise remain outside this repository.

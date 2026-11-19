@@ -53,4 +53,4 @@ The practical investigation ends with a supported finding and an unsuccessful re
 
 ## Evidence and assistance
 
-Detailed evidence is summarized in the scope, inventory, and finding documents. Existing official reference links are retained in those records. Raw screenshots, trace files, and virtual disks remain outside uploaded portfolio content. AI assisted with instruction, interpretation, and report drafting; generated text was not treated as experimental evidence. The repository is maintained privately.
+Detailed evidence is summarized in the scope, inventory, and finding documents. Existing official reference links are retained in those records. Raw screenshots, trace files, and virtual disks remain outside uploaded portfolio content. AI assisted with instruction, interpretation, and report drafting; generated text was not treated as experimental evidence. Reviewed documentation was made public with the owner's authorization on November 19, 2026; raw private evidence remains local.
